@@ -1,0 +1,92 @@
+form .mb-3 {
+  max-width: fit-content;
+}
+form button {
+  position: relative;
+  bottom: 54px;
+  left: 210px;
+}
+
+.btn-info {
+  background-color: transparent;
+  border-color: #a8edea;
+  transition: all 200ms ease-in-out;
+  color: white;
+}
+
+:hover.btn-info {
+  background-color: #a8edea;
+  border-color: #a8edea;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 80px;
+  line-height: 65px;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.container {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 5%;
+}
+
+.current-weather {
+  text-align: center;
+}
+.current-weather i {
+  color: white;
+  font-size: 100px;
+}
+.current-weather .temperature {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  left: 26px;
+}
+.current-weather .units {
+  color: black;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  top: -24px;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+.card-body {
+  color: white;
+  text-align: center;
+}
+
+.card-body i {
+  color: white;
+  font-size: 35px;
+  padding: 8px;
+}
+
+.card-body p {
+  color: white;
+  font-size: 13px;
+  line-height: 10px;
+}
